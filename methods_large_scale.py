@@ -186,7 +186,7 @@ def FPIC(X, K, C, L, M, noise_threshold, save_path=None, label=None):
 
 if __name__ == "__main__":
     method_opt = 'FRI'  # 'FRI' or 'GI' or 'PIC'.
-                        # The clustering results of KM++, LF and CSC are obtained as intermediate results of FRI.
+                        # The clustering results of KM++, LF and SC are obtained as intermediate results of FRI.
     rec_dir = 'rec/{}/'.format(method_opt)
     K_list = [4, 8, 16, 32]
     dn_list = ['USPS_CNN_AE', 'MNIST_CNN_AE', 'FMNIST_CNN_AE', 'STL10_ResNet18', 'CIFAR10_resnet18']
